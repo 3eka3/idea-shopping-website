@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>idea — Modern Shopping</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#">idea<span>.</span></a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="#">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn search-btn" aria-label="Search">⌕</button>
+        <a href="#" class="account">Sign in</a>
+        <a href="#" class="cart" aria-label="Shopping cart">♧<span>2</span></a>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- FIRST SECTION / HERO -->
+    <section class="hero" id="shop">
+      <div class="container hero-grid">
+        <article class="hero-card hero-green">
+          <div class="hero-copy">
+            <small>NEW ARRIVALS</small>
+            <h1>Make your home<br><strong>feel special.</strong></h1>
+            <p>Discover pieces designed to make everyday spaces feel more beautiful.</p>
+            <a href="#products" class="btn dark">Shop now <span>→</span></a>
+          </div>
+          <img src="https://images.unsplash.com/photo-1549497538-303791108f95?auto=format&fit=crop&w=900&q=85" alt="Modern green chair">
+        </article>
+
+        <article class="hero-side hero-dark">
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85" alt="Warm modern interior">
+          <div>
+            <small>INTERIOR</small>
+            <h2>Simple.<br>Comfortable.</h2>
+            <a href="#collections">Explore collection →</a>
+          </div>
+        </article>
+
+        <article class="hero-side hero-purple">
+          <div class="shape"></div>
+          <div class="hero-side-copy">
+            <small>DESIGN TRENDS</small>
+            <h2>Refresh your<br>space.</h2>
+            <a href="#products">Discover →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="categories" id="collections">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">EXPLORE</span>
+            <h2>Shop by category</h2>
+          </div>
+          <a class="view-link" href="#products">View all →</a>
+        </div>
+
+        <div class="category-grid">
+          <a class="category-card cat-lilac" href="#products">
+            <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=700&q=85" alt="Armchair">
+            <span>Chairs</span>
+          </a>
+          <a class="category-card cat-peach" href="#products">
+            <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=700&q=85" alt="Stool">
+            <span>Tables</span>
+          </a>
+          <a class="category-card cat-purple" href="#products">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=85" alt="Sofa">
+            <span>Sofas</span>
+          </a>
+          <a class="category-card cat-yellow" href="#products">
+            <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=700&q=85" alt="Cushion">
+            <span>Decor</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="products-section" id="products">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">OUR FAVORITES</span>
+            <h2>Discover our products</h2>
+          </div>
+          <a class="view-link" href="#">View all →</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image bg-yellow">
+              <span class="badge">NEW</span>
+              <button class="heart" aria-label="Add to wishlist">♡</button>
+              <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=700&q=85" alt="Lounge chair">
+            </div>
+            <div class="product-info">
+              <div class="rating">★★★★★ <span>(24)</span></div>
+              <h3>Modern Lounge Chair</h3>
+              <p>Soft fabric · Walnut legs</p>
+              <strong>$149</strong>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image bg-pink">
+              <span class="badge">SALE</span>
+              <button class="heart" aria-label="Add to wishlist">♡</button>
+              <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=700&q=85" alt="Minimal wooden chair">
+            </div>
+            <div class="product-info">
+              <div class="rating">★★★★★ <span>(18)</span></div>
+              <h3>Oak Dining Chair</h3>
+              <p>Natural oak · Minimal design</p>
+              <strong>$89</strong>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image bg-blue">
+              <button class="heart" aria-label="Add to wishlist">♡</button>
+              <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=700&q=85" alt="Blue accent chair">
+            </div>
+            <div class="product-info">
+              <div class="rating">★★★★★ <span>(31)</span></div>
+              <h3>Accent Chair</h3>
+              <p>Premium fabric · Steel base</p>
+              <strong>$129</strong>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image bg-lilac">
+              <button class="heart" aria-label="Add to wishlist">♡</button>
+              <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=700&q=85" alt="Wooden chair">
+            </div>
+            <div class="product-info">
+              <div class="rating">★★★★★ <span>(12)</span></div>
+              <h3>Classic Wood Chair</h3>
+              <p>Solid wood · Handmade</p>
+              <strong>$119</strong>
+            </div>
+          </article>
+        </div>
+
+        <div class="mini-products">
+          <article>
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sofa">
+            <div><h3>Cloud Sofa</h3><span>$399</span></div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1532372320572-cda25653a26d-?auto=format&fit=crop&w=500&q=80" alt="Lamp">
+            <div><h3>Arc Lamp</h3><span>$79</span></div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=500&q=80" alt="Home interior">
+            <div><h3>Home Set</h3><span>$259</span></div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=500&q=80" alt="Table">
+            <div><h3>Side Table</h3><span>$99</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="promo">
+      <div class="container promo-inner">
+        <div>
+          <span class="eyebrow">MEMBER PERKS</span>
+          <h2>Get 15% off your first order.</h2>
+          <p>Sign up for design inspiration, new arrivals and special offers.</p>
+        </div>
+        <form class="newsletter">
+          <input type="email" placeholder="Enter your email" aria-label="Email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="about">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#">idea<span>.</span></a>
+        <p>Beautiful furniture and thoughtful objects for modern living.</p>
+        <div class="socials"><a href="#">f</a><a href="#">◎</a><a href="#">p</a><a href="#">in</a></div>
+      </div>
+      <div><h4>Shop</h4><a href="#">New arrivals</a><a href="#">Furniture</a><a href="#">Decor</a><a href="#">Sale</a></div>
+      <div><h4>Company</h4><a href="#">About us</a><a href="#">Our story</a><a href="#">Careers</a><a href="#">Contact</a></div>
+      <div><h4>Help</h4><a href="#">Shipping</a><a href="#">Returns</a><a href="#">FAQ</a><a href="#">Privacy</a></div>
+    </div>
+    <div class="container copyright">
+      <span>© 2026 idea. All rights reserved.</span>
+      <span>Made with HTML & CSS</span>
+    </div>
+  </footer>
+
+</body>
+</html>
